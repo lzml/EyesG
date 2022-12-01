@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2709802e-6ca1-4474-ac42-e3ea1baa54d1}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1f12d41a-d62c-4efd-92c9-e91a176731b8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{75ac8db3-fa6c-46dd-a789-fe7500a891b4}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="SoUI Resouece">
+      <UniqueIdentifier>{9d92f426-07d8-48e2-b844-f9c79c3865d4}</UniqueIdentifier>
+      <Extensions>idx;xml;png;gif;jpg;ico;lua;bmp</Extensions>
+    </Filter>
+    <Filter Include="SoUI Sys Resouece">
+      <UniqueIdentifier>{f50777a4-fa60-4551-a616-fddce0b806bf}</UniqueIdentifier>
+      <Extensions>idx;xml;png;gif;jpg;ico;lua;bmp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="license.txt" />
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EyesG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trayicon\SShellNotifyIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trayicon\SShellNofityHwnd2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRadioBox2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeGuard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SCheckBox2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uifunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EyesGuard_en.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protect_eyes_en.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="editFilterType1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DllFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EyesG.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trayicon\SShellNotifyIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trayicon\SShellNofityHwnd2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SRadioBox2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopeGuard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SCheckBox2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uifunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EyesGuard_en.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protect_eyes_en.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="editFilterType1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DllFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stringinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\soui_res.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="uires\theme_sys_res\uires.idx">
+      <Filter>SoUI Sys Resouece</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="uires\uidef\init.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\values\skin.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\values\string.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\xml\dlg_main.xml">
+      <Filter>SoUI Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\theme_sys_res\sys_xml_skin.xml">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\theme_sys_res\sys_xml_msgbox.xml">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Xml>
+    <Xml Include="uires\theme_sys_res\sys_xml_editmenu.xml">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="uires\image\soui.ico">
+      <Filter>SoUI Resouece</Filter>
+    </Image>
+    <Image Include="uires\image\traymenu_icons.png">
+      <Filter>SoUI Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_border.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_btn_close.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_btn_maximize.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_btn_minimize.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_btn_next.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_btn_prev.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_btn_restore.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_checkbox.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_dropbtn.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_focus_checkbox.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_focus_radio.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_header.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_icons.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_menu_arrow.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_menu_border.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_menu_check.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_menu_sep.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_menu_skin.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_prog_bar.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_prog_bkgnd.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_radio.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_scrollbar.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_slider_thumb.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_split_horz.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_split_vert.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_tab_page.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_tree_checkbox.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_Tree_toggle.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_vert_prog_bar.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_vert_prog_bkgnd.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+    <Image Include="uires\theme_sys_res\sys_wnd_bkgnd.png">
+      <Filter>SoUI Sys Resouece</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="uires\uires.idx">
+      <Filter>SoUI Resouece</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

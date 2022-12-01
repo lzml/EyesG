@@ -1,0 +1,45 @@
+﻿<SOUI  width="648" height="408"  resizable="0" wndType="appMain" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16"
+translucent="1"
+>
+  <root  skin="main_bk"  cache="1">
+    <window pos="4,2,-4,-6" >
+
+      <tabctrl name="tab_main" pos="0,0,-0,-0"  tabHeight="0"  curSel="0" focusable="0">
+        <!--第一个页面-->
+        <page>
+          <caption pos="0,0,-0,@60"  >
+
+            <text pos="10,8" font="face:微软雅黑,size:16" colorText="#ffffff">护眼工具</text>
+            <imgbtn name="btn_close" skin="skin_btn_close"    pos="-32,10" cursor="hand" />
+
+          </caption>
+          <window pos="0,60,-0,-0">
+            <text pos="60,30"  colorText="#ffffff" font="face:微软雅黑,size:16">色温调节</text>
+            <sliderbar name="adjustColorT"  pos="60,60,@520,@27" bkgndSkin="skin_slider_bk" posSkin="skin_slider_pos" thumbSkin="skin_slider_thumb" thumbInRail="1" min="40" max="100"></sliderbar>
+            
+            <text pos="60,93"  colorText="#ffffff" font="face:微软雅黑,size:16">亮度调节</text>
+            <sliderbar name="adjustligthness"  pos="60,120,@520,@27" bkgndSkin="skin_slider_bk" posSkin="skin_slider_pos" thumbSkin="skin_slider_thumb" thumbInRail="1" min="40" max="100"></sliderbar>
+
+            <text name="txt_color_info" pos="60,168" font="face:微软雅黑,size:14" align="left" colorText="#ffffff" >@string/fuzhu_info_normal</text>
+            
+            <radio2 name="rd_normal" pos="60,206,@90,@24" cursor="hand" colorText="#333333" iconSKin="skin_btn_style_1" skin="skin_trans" textOffset="32,2" font="face:微软雅黑,size:14">正常</radio2>
+            <radio2 name="rd_warm1" pos="[30,206,@90,@24" cursor="hand" colorText="#333333" iconSKin="skin_btn_style_1" skin="skin_trans" textOffset="32,2" font="face:微软雅黑,size:14">温暖1</radio2>
+            <radio2 name="rd_warm2" pos="[30,206,@90,@24" cursor="hand" colorText="#333333" iconSKin="skin_btn_style_1" skin="skin_trans" textOffset="32,2" font="face:微软雅黑,size:14">温暖2</radio2>
+            <radio2 name="rd_warm3" pos="[30,206,@90,@24" cursor="hand" colorText="#333333" iconSKin="skin_btn_style_1" skin="skin_trans" textOffset="32,2" font="face:微软雅黑,size:14">温暖3</radio2>
+            
+            <radio2 name="rd_gloomy" pos="60,250,@90,@24" cursor="hand" colorText="#333333" iconSKin="skin_btn_style_1" skin="skin_trans" textOffset="32,2" font="face:微软雅黑,size:14">灰暗</radio2>
+            <radio2 name="rd_auto_adjust" pos="[30,250,@90,@24" cursor="hand" colorText="#333333" iconSKin="skin_btn_style_1" skin="skin_trans" textOffset="32,2" font="face:微软雅黑,size:14">智能</radio2>
+            <radio2 name="rd_reversedcolor" pos="[30,250,@90,@24" cursor="hand" colorText="#333333" iconSKin="skin_btn_style_1" skin="skin_trans" textOffset="32,2" font="face:微软雅黑,size:14">反色</radio2>
+            <radio2 name="rd_BW" pos="[30,250,@90,@24" cursor="hand" colorText="#333333" iconSKin="skin_btn_style_1" skin="skin_trans" textOffset="32,2" font="face:微软雅黑,size:14">黑白</radio2>
+      
+          </window>
+
+        </page>
+
+      </tabctrl>
+
+    </window>
+
+
+  </root>
+</SOUI>

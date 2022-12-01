@@ -1,0 +1,7 @@
+LIBRARY magnifier
+
+EXPORTS
+
+setColorInversion   @1
+setColorGray		@2
+setColorNormal		@3

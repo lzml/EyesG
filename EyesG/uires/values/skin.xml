@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<skin>
+  <imglist name="skin_traymenu_icons"	src="img:traymenu_icons" states="9"/>
+  <imglist name="skin_check_1" src="img:img_check_1" states="2" />
+
+  
+  <imglist name="main_bk" src="img:main_bk" />
+
+  <imglist name="skin_btn_close" src="img:btn_close" states="3" vertical="1"/>
+
+
+
+  <imgframe name="skin_shadow" src="img:img_shadow" margin="5,3,5,7"/>
+  <imglist name="skin_ck_intelligent" src="img:ck_intelligent" states="3" />
+  <imgframe  name="skin_slider_bk" src="img:slider_bk" margin="3,1,3,1"/>
+  <imgframe  name="skin_slider_pos" src="img:slider_pos" margin="5,0,5,0"/>
+  <imglist name="skin_slider_thumb" src="img:slider_thumb" states="3"/>
+  <imglist name="skin_ck_style_1" src="img:img_ck_style_1" states="2"/>
+
+  <imglist name="skin_trans" src="img:img_trans" />
+  <imglist name="skin_btn_style_1" src="img:img_btn_style_1" states="3"/>
+
+
+</skin>
